@@ -9,9 +9,12 @@
   overflow: hidden;
 }
 .sidebar{
+  flex-shrink: 0;
+  overflow-y: auto;
   width: 240px;
   background-color:#1A2942 ;
 }
 .main{
+  overflow-y: auto;
   background-color:#EAF1F3 ;
 }
