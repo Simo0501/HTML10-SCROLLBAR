@@ -1,0 +1,17 @@
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+.container{
+  display: flex;
+  height: 100vh;
+  overflow: hidden;
+}
+.sidebar{
+  width: 240px;
+  background-color:#1A2942 ;
+}
+.main{
+  background-color:#EAF1F3 ;
+}
