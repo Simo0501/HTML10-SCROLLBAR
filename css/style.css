@@ -31,11 +31,9 @@ html {
   width: 240px;
   background-color:#1A2942 ;
 }
-.sidebar.logo{
-  display: flex;
+.sidebar .logo{
   align-items: center;
   padding: 1rem;
-  margin-left: 1rem;
 }
 .main{
   overflow-y: auto;
