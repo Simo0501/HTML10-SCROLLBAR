@@ -75,3 +75,6 @@ html {
 .sidebar .sidebar-list .sidebar-list-item a:focus {
   color: #3bc0c3;
 }
+.sidebar .sidebar-list .sidebar-list-item a .sidebar-list-list-item-text {
+  flex-grow: 1;
+ }
