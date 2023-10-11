@@ -60,7 +60,7 @@ html {
   list-style: none;
 }
 .sidebar .sidebar-list .sidebar-list-item{
-  margin: 1rem;
+  margin: 1rem 0;
 }
 .sidebar .sidebar-list .sidebar-list-item a{
   display: flex;
@@ -77,4 +77,8 @@ html {
 }
 .sidebar .sidebar-list .sidebar-list-item a .sidebar-list-list-item-text {
   flex-grow: 1;
+ } 
+ .sidebar-list-sublist{
+  margin-top: 1rem;
+  margin-left: 1.5rem;
  }
