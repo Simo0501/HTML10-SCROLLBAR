@@ -3,16 +3,39 @@
   margin: 0;
   box-sizing: border-box;
 }
+html {
+  font-family: 'Roboto', sans-serif;
+}
+
+.display-none {
+  display: none;
+}
+
+.btn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: transparent;
+  border: none;
+}
 .container{
   display: flex;
   height: 100vh;
   overflow: hidden;
 }
 .sidebar{
+  display: flex;
+  flex-direction: column;
   flex-shrink: 0;
   overflow-y: auto;
   width: 240px;
   background-color:#1A2942 ;
+}
+.sidebar.logo{
+  display: flex;
+  align-items: center;
+  padding: 1rem;
+  margin-left: 1rem;
 }
 .main{
   overflow-y: auto;
