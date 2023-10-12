@@ -137,3 +137,19 @@ html {
   display: flex;
   gap: 1rem;
 }
+.main-content{
+  padding: 1rem;
+}
+.main-top-bar{
+  display: flex;
+  align-items: center;
+}
+.main-top-bar-list{
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  margin-left: auto;
+  list-style: none;
+}.main-top-bar-list a{
+  text-decoration: none;
+}
