@@ -172,7 +172,6 @@ html {
 }
 .box-1-B{
   font-size: xx-large;
-  background-color:#F57B9D;
 }
 .box-1-row{
   display: flex;
@@ -248,4 +247,32 @@ html {
 }
 .box-4-B{
   font-size: xx-large;
+}
+.content-info{
+  display: flex;
+  border: solid 1px transparent;
+}
+.content-graphic{
+  width: 90%;
+  height: 400px;
+  margin: 0.5rem;
+  background-color:greenyellow;
+}
+.content-graphic-2{
+  width: 50%;
+  height: 400px;
+  margin: 0.5rem;
+  background-color: red;
+}
+.content-footer{
+  display: flex;
+  border: solid 1px transparent;
+}
+.content-footer-1{
+  margin: 0.5rem;
+  background-color: rgb(59, 59, 158);
+}
+.content-footer-2{
+  margin: 0.5rem;
+  background-color: #b9237f;
 }
