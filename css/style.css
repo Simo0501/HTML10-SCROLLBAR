@@ -227,13 +227,11 @@ border-radius: 1%;background-color:#F24F7C ;
 }
 .content-header .box-1{
   width: 60%;
-  height: 300px;
   margin-right: 1rem;
   background-color: yellow;
 }
 .content-header .box-2{
   width: 40%;
-  height: 300px;
   background-color: red;
 }
 .content-footer{
@@ -325,9 +323,7 @@ border-radius: 1%;background-color:#F24F7C ;
 
 .content-footer .box-4{
   width: 60%;
-  height: 330px;
   margin-left: 1rem;
-  background-color: blue;
 }
 .chat-3,
 .chat-5{
@@ -365,7 +361,7 @@ border-radius: 1%;background-color:#F24F7C ;
 }
 .content-footer .box-4{
   width: 60%;
-  height: 550px;
+  height: 700px;
   background-color:#FFFFFF ;
   padding: 1rem;
 }
@@ -399,13 +395,15 @@ margin: 1.5rem;
   border: 1px solid transparent;
   border-radius: 15%;
 }
-.table .table-list .table-list-item-color-2{
+.table .table-list .table-list-item-color-2,
+.table .table-list .table-list-item-color-6 {
   border: 1px solid transparent;
   border-radius: 15%;
   color: #33B0E5; 
   background-color: #D6EFF9;
 }
-.table .table-list .table-list-item-color-3{
+.table .table-list .table-list-item-color-3,
+.table .table-list .table-list-item-color-7{
   border: 1px solid transparent;
   border-radius: 15%;
   background-color:#FCDCE5 ;
