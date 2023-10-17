@@ -387,10 +387,10 @@ border-radius: 1%;background-color:#F24F7C ;
   display: flex;
 }
 .table .table-list .table-list-item h4{
-margin: 1.5rem; 
+margin: 1rem; 
 }
 .table .table-list .table-list-item p{
-  margin: 1.5rem;
+  margin: 1rem;
   font-size: small;
 }
 .table .table-list .table-list-item-color{
@@ -398,13 +398,21 @@ margin: 1.5rem;
   color: #33B0E5;
   border: 1px solid transparent;
   border-radius: 15%;
+  padding: 1px;
 }
 .table .table-list .table-list-item-color-2{
   border: 1px solid transparent;
   border-radius: 15%;
   color: #33B0E5; 
   background-color: #D6EFF9;
-  padding: 0%;
+  padding: 1px;
+}
+.table .table-list .table-list-item-color-3{
+  border: 1px solid transparent;
+  border-radius: 15%;
+  background-color:#FCDCE5 ;
+  color:#F34F7C ;
+  padding: 1px;
 }
 
 
