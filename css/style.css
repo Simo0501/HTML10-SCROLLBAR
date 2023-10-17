@@ -243,13 +243,15 @@ border-radius: 1%;background-color:#F24F7C ;
 }
 .content-footer .box-3{
   width: 40%;
-  padding: 1.5rem;
+  height: 550px;
+  padding: 1rem;
   background-color:#FFFFFF ;
 }
 .box-3-row{
   display: flex;
   justify-content: space-between;
-  margin-bottom: 3rem;
+  height: 50px;
+  margin-bottom: 1rem;
 }
 .box-3-row .box-3-row-col-2{
   margin: 0.5rem 5.5rem;
@@ -257,11 +259,13 @@ border-radius: 1%;background-color:#F24F7C ;
 .chat{
   display: flex;
   flex-direction: column;
+  height: 400px;
+  overflow: auto;
 }
 .chat-1,
-.chat-3{
+.chat-3,
+.chat-5{
   display: flex;
-
 }
 .chat .chat-1 .chat-img{
   display: flex;
@@ -269,7 +273,8 @@ border-radius: 1%;background-color:#F24F7C ;
   margin-left: 2rem;
 }
 .chat .chat-1 .chat-img img,
-.chat .chat-3 .chat-img img{
+.chat .chat-3 .chat-img img,
+.chat .chat-5 .chat-img img{
   border: 1px solid transparent;
   border-radius: 100%;
   width: 35px;
@@ -278,7 +283,8 @@ border-radius: 1%;background-color:#F24F7C ;
  }
 
  .chat .chat-1 .chat-text,
- .chat .chat-3 .chat-text{
+ .chat .chat-3 .chat-text,
+ .chat .chat-5 .chat-text{
   border: 1px solid transparent;
   border-radius: 1%;
   background-color: #dddde0;
@@ -327,7 +333,8 @@ border-radius: 1%;background-color:#F24F7C ;
   margin-left: 1rem;
   background-color: blue;
 }
-.chat-3{
+.chat-3,
+.chat-5{
   margin: 2rem 0 2rem 2rem;
 }
 .chat-4{
