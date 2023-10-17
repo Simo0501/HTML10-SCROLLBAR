@@ -253,9 +253,6 @@ border-radius: 1%;background-color:#F24F7C ;
   height: 50px;
   margin-bottom: 1rem;
 }
-.box-3-row .box-3-row-col-2{
-  margin: 0.5rem 5.5rem;
-}
 .chat{
   display: flex;
   flex-direction: column;
@@ -366,3 +363,29 @@ border-radius: 1%;background-color:#F24F7C ;
   color: white;
   font-size: small;
 }
+.content-footer .box-4{
+  width: 60%;
+  height: 550px;
+  padding: 1rem;
+  background-color:#FFFFFF ;
+}
+.box-4-row{
+  display: flex;
+  justify-content: space-between;
+  height: 50px;
+  margin-bottom: 1rem;
+}
+.box-4-row .box-4-row-col-1 h5{
+  font-size: 1rem;
+}
+.table .table-list{
+  display: flex;
+  list-style-type: none;
+}
+.table .table-list .table-list-item {
+  display: flex;
+  margin-right: 2.5rem;
+  margin-left: 0.5rem;
+}
+
+
