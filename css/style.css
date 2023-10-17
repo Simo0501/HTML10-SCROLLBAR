@@ -394,10 +394,17 @@ margin: 1.5rem;
   font-size: small;
 }
 .table .table-list .table-list-item-color{
-  background-color: #D6EFF9;
+  background-color:#D6EFF9 ;
   color: #33B0E5;
   border: 1px solid transparent;
   border-radius: 15%;
+}
+.table .table-list .table-list-item-color-2{
+  border: 1px solid transparent;
+  border-radius: 15%;
+  color: #33B0E5; 
+  background-color: #D6EFF9;
+  padding: 0%;
 }
 
 
