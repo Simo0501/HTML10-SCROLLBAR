@@ -241,20 +241,20 @@ border-radius: 1%;background-color:#F24F7C ;
 }
 .content-footer .box-3{
   width: 40%;
-  height: 550px;
+  height: 680px;
   padding: 1rem;
   background-color:#FFFFFF ;
 }
 .box-3-row{
   display: flex;
   justify-content: space-between;
-  height: 50px;
+  height: 80px;
   margin-bottom: 1rem;
 }
 .chat{
   display: flex;
   flex-direction: column;
-  height: 400px;
+  height: 450px;
   overflow: auto;
 }
 .chat-1,
@@ -285,6 +285,10 @@ border-radius: 1%;background-color:#F24F7C ;
   background-color: #dddde0;
   padding: 1rem;
   margin-left: 1rem;
+ }
+ .chat .chat-text h5,
+ .chat .chat-text h6{
+  margin-bottom: 0.5rem;
  }
  .chat .chat-2 {
   display: flex;
