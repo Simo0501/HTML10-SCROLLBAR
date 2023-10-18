@@ -430,7 +430,20 @@ margin: 1.5rem;
   background-color:#FBF4DD ;
   color:#EFC755 ;
 }
-
+.Footer{
+  display: flex;
+  justify-content: center;
+  border-top: 1px solid;
+  padding-top: 1rem;
+}
+.Footer-list {
+  font-size: small;
+}
+.Footer-list-2{
+  font-size: small;
+  font-weight: bold;
+  margin-left: 5px;
+}
 
 
 
