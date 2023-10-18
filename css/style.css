@@ -131,11 +131,25 @@ html {
 .profile .avatar img{
   width: 100%;
 }
-
 .list-icon {
+  position: relative;
   list-style: none;
   display: flex;
   gap: 1rem;
+}
+.circle-1{
+  position: absolute;
+  top: -10px;
+  left: 4px;
+  border: 1px solid;
+  width: 15px;
+  height: 15px;
+  border-radius: 15px;
+  color: white;
+  background-color: blue;
+}
+.circle-2{
+
 }
 .main-content{
   padding: 1rem;
