@@ -381,6 +381,7 @@ border-radius: 1%;background-color:#F24F7C ;
   display: flex;
   list-style-type: none;
   border-bottom: 1px solid;
+  border-color: rgb(218, 213, 213);
   padding-bottom: 0.5rem;
 }
 .table .table-list .table-list-item{
@@ -434,6 +435,7 @@ margin: 1.5rem;
   display: flex;
   justify-content: center;
   border-top: 1px solid;
+  border-color: rgb(218, 213, 213);
   padding-top: 1rem;
 }
 .Footer-list {
