@@ -251,6 +251,9 @@ border-radius: 1%;background-color:#F24F7C ;
   height: 80px;
   margin-bottom: 1rem;
 }
+.box-3-row .box-3-row-col-2 a{
+  color: black;
+}
 .chat{
   display: flex;
   flex-direction: column;
@@ -373,6 +376,9 @@ border-radius: 1%;background-color:#F24F7C ;
   display: flex;
   justify-content: space-between;
   height: 50px;
+}
+.box-4-row .box-4-row-col-2 a{
+  color: black;
 }
 .box-4-row .box-4-row-col-1 h5{
   font-size: 1rem;
