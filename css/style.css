@@ -48,8 +48,8 @@ html {
   color: #70809a;
 }
 .sidebar .logo{
-  align-items: center;
-  padding: 1rem;
+  text-align: center;
+  padding: 2rem;
   height: 80px;
 }
 .sidebar .sidebar-menu{
@@ -61,13 +61,16 @@ html {
 }
 .sidebar .sidebar-list .sidebar-list-item{
   margin: 1rem 0;
+  font-size: medium;
 }
 .sidebar .sidebar-list .sidebar-list-item a{
   display: flex;
   justify-content: space-between;
   align-items: center;
   gap: 0.5rem;
+  margin-top: 1rem;
   text-decoration: none;
+  font-size: medium;
   color: #70809a;
 }
 .sidebar .sidebar-list .sidebar-list-item a:hover,
