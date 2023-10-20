@@ -195,7 +195,7 @@ border-radius: 1%;background-color:#F24F7C ;
 .card-text{
   display: flex;
   flex-direction: column;
-  width: 80%;
+  width: 70%;
   color:#FFFFFF;
   padding: 1.5rem;
 }
@@ -203,7 +203,7 @@ border-radius: 1%;background-color:#F24F7C ;
   display: flex;
   justify-content: center;
   align-items: center;
-  width: 20%;
+  width: 30%;
   background-color: #F57B9D;
   color: #FFFFFF;
   font-size: xx-large;
@@ -390,6 +390,7 @@ border-radius: 1%;background-color:#F24F7C ;
   background-color: transparent;
   color: white;
   font-size: small;
+  cursor: pointer;
 }
 .content-footer .box-4{
   width: 60%;
